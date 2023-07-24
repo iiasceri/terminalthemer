@@ -1,3 +1,4 @@
+sudo spctl --master-disable
 sh -c -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew uninstall zsh
 brew uninstall romkatv/powerlevel10k/powerlevel10k
